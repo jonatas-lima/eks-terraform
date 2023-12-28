@@ -6,4 +6,4 @@ repos:
     - id: terraform_validate
     - id: terraform_docs
       args:
-        - --output-file README.md
+        - markdown table --output-file README.md

@@ -17,12 +17,6 @@ terraform {
       version = "2.12.1"
     }
   }
-
-  backend "s3" {
-    bucket = "comunidade-devops"
-    key    = "tfstate"
-    region = "us-east-1"
-  }
 }
 
 provider "aws" {
